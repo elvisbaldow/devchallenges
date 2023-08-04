@@ -8,13 +8,11 @@ header{
 
     margin: 40px 0 0 77px;
     display: block;
-    border: 1px solid red;
 }
     /* conteudo */
 #container{
     height: 500px;
     overflow: auto;
-    border: 2px solid green;
     margin: 100px 0 0 77px;
 }
 .image{
@@ -25,10 +23,8 @@ header{
 }
 .image img{
     width: 100%;
-    border: 1px solid blue;
 }
 .information{
-    border: 1px solid rgb(211, 140, 9);
     width: 586px;
     float: left;
     padding-left: 119px;
@@ -42,7 +38,6 @@ header{
     font-size: 64px;
     font-weight: 700;
     letter-spacing: -2.24px;
-    border: 1px solid brown;
 
 }
 .information p{
@@ -51,7 +46,6 @@ header{
     font-size: 24px;
     font-weight: 400;
     letter-spacing: -0.84px;
-    border: 1px solid red;
 }
 button{
     width: 216px;
@@ -65,4 +59,16 @@ button{
 
 button:hover{
     background-color: #4b4a4a;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+footer img{
+    width: 20px;
 }
