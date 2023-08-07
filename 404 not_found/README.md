@@ -36,7 +36,8 @@
 
 ## Overview
 
-![screenshot](/assets/layout.jpg)
+![screenshot](https://github.com/elvisbaldow/devchallenges/blob/main/404%20not_found/assets/layout.jpg)
+
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
