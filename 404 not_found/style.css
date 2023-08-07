@@ -30,8 +30,7 @@ header{
     padding-left: 119px;
     font-family: 'Space Mono', monospace;
     color: #333;
-
-    
+   
 }
 .information h1{
     margin-top: 0;
@@ -71,4 +70,63 @@ footer{
 
 footer img{
     width: 20px;
+}
+
+
+@media screen and (max-width: 500px){
+    header{
+    font-size: 16px;
+    margin: auto;
+    }
+    
+    #container {
+       margin: 15 0 0 0;
+    }
+
+    .image{
+        width: 95%;
+        max-height: 335px;
+        text-align: center;
+    }
+
+    .information{
+       width: 95%;
+       display: block;
+       padding: 5px;
+       margin: 0 0;
+    }
+
+    .information h1{
+        margin-top: 0;
+        font-size: 45px;
+        font-weight: 700;
+    
+    }
+    .information p{
+        margin: 36px 0 15px 0;
+        width: 381px;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: -0.84px;}
+
+
+    button{
+        width: 168px;
+        height: 48px;
+        background-color: #333;
+        color: #FFF;
+        letter-spacing: -0.49px;
+        text-transform: uppercase;
+        font-size: 12px;
+  }
+
+  footer{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+
 }
